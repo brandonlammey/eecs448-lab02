@@ -32,7 +32,7 @@ int LinkedList<T>::size() const
 	/** TODO 
 		Fix this method
 	*/
-	return(0);
+	return(m_size); //method fixed by Brandon to return size in place of 0
 }
 
 template <typename T>
